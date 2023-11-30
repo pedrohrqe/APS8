@@ -1,0 +1,55 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #cfcfcf;
+}
+
+.title {
+    justify-content: center;
+
+    text-align: center;
+}
+
+.panel-heading,
+.help-block {
+    text-align: center;
+}
+
+.subtitle {
+}
+
+.info {
+    font-size: 10px;
+}
+
+
+form {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 5px;
+    padding: 5px;
+    gap: 5px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+form h4 {
+    text-align: center;
+}
+
+form input {
+    width: 60%;
+}
+
+
+
+#map {
+    border: 2px solid black;
+    border-radius: 15px;
+}
